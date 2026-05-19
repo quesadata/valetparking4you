@@ -11,10 +11,10 @@ export const HeroSection: React.FC = () => {
     <section className="relative h-screen min-h-[700px] w-full flex items-center pt-20 overflow-hidden bg-black">
       {/* Static Background Image */}
       <motion.div
-        initial={{ opacity: 0, scale: 1.05 }}
-        animate={{ opacity: 0.8, scale: 1 }}
-        transition={{ duration: 2, ease: 'easeOut' }}
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat w-full h-full"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.8 }}
+        transition={{ duration: 1.5 }}
+        className="absolute inset-0 z-0 bg-cover bg-[center_top] sm:bg-center bg-no-repeat w-full h-full"
         style={{ backgroundImage: `url('${heroBg}')` }}
       />
 
@@ -39,9 +39,9 @@ export const HeroSection: React.FC = () => {
             initial={{ opacity: 0, x: -40, filter: "blur(15px)" }}
             animate={{ opacity: 1, x: 0, filter: "blur(0px)" }}
             transition={{ duration: 1.5, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif text-white leading-[1.05] tracking-tight mb-8"
+            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif text-white leading-[1.1] tracking-tight mb-8"
           >
-            Every Arrival. <br />
+            Every Arrival. <br className="hidden sm:block" />
             <span className="text-red-600 italic">Perfectly Handled.</span>
           </motion.h1>
 
@@ -76,25 +76,24 @@ export const HeroSection: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Sub-hero metrics */}
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1.2 }}
-          className="absolute bottom-10 left-6 sm:left-8 lg:left-12 right-6 sm:right-8 lg:right-12 hidden md:flex justify-between items-end border-t border-white/10 pt-6"
+          className="absolute bottom-8 left-6 sm:left-8 lg:left-12 right-6 sm:right-8 lg:right-12 grid grid-cols-2 md:flex justify-between items-end border-t border-white/10 pt-6 gap-y-6"
         >
-          <div className="flex gap-16">
+          <div className="flex flex-col md:flex-row md:gap-16 contents">
             <div>
-              <p className="text-3xl font-serif text-white">22<span style={{ color: '#FFD700' }}>+</span></p>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mt-1">Years Experience</p>
+              <p className="text-2xl sm:text-3xl font-serif text-white">22<span style={{ color: '#FFD700' }}>+</span></p>
+              <p className="text-[10px] sm:text-xs uppercase tracking-widest text-gray-400 mt-1">Years Experience</p>
             </div>
             <div>
-              <p className="text-3xl font-serif text-white">$4<span style={{ color: '#FFD700' }}>M</span></p>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mt-1">Umbrella Liability</p>
+              <p className="text-2xl sm:text-3xl font-serif text-white">$4<span style={{ color: '#FFD700' }}>M</span></p>
+              <p className="text-[10px] sm:text-xs uppercase tracking-widest text-gray-400 mt-1">Umbrella Liability</p>
             </div>
-            <div>
-              <p className="text-3xl font-serif text-white">24<span style={{ color: '#FFD700' }}>/</span>7</p>
-              <p className="text-xs uppercase tracking-widest text-gray-400 mt-1">Dedicated Support</p>
+            <div className="hidden xs:block">
+              <p className="text-2xl sm:text-3xl font-serif text-white">24<span style={{ color: '#FFD700' }}>/</span>7</p>
+              <p className="text-[10px] sm:text-xs uppercase tracking-widest text-gray-400 mt-1">Premium Support</p>
             </div>
           </div>
         </motion.div>

@@ -4,13 +4,15 @@ import { JsonLdSchema } from '../components/seo/json-ld-schemas';
 import { ShieldCheck, ChevronRight, CheckCircle2, FileText, LockKeyhole } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import heroBg from '../assets/images/valet/gallery2024_4.jpeg';
 
 export default function Insurance() {
+    const { t } = useTranslation();
     return (
         <>
             <SeoHead
-                title="Premium $4M Valet Insurance & Liability Protection | Valet Parking 4 You"
+                title={t('seo.insurance_title')}
                 description="Secure your property with our industry-leading $4M liability policy. Valet Parking 4 You provides absolute peace of mind for every luxury guest arrival and event."
                 url="https://www.valetparking4you.com/insurance"
             />

@@ -14,7 +14,7 @@ export default function Gallery() {
     return (
         <>
             <SeoHead
-                title="Luxury Clientele & Event Portfolio | Valet Parking 4 You"
+                title={t('seo.gallery_title')}
                 description="View our extensive portfolio of luxury hotels, upscale restaurants, and exclusive events served by Valet Parking 4 You across Florida and Georgia for over two decades."
                 url="https://www.valetparking4you.com/gallery"
             />

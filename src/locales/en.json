@@ -3,60 +3,14 @@
         "default_title": "Valet Parking 4 You | Luxury Valet Parking & Traffic Solutions in FL & GA",
         "default_description": "South Florida and Atlanta's premier luxury valet and traffic management service, serving elite venues and exclusive events for over 22 years.",
         "default_keywords": "valet parking service, luxury valet parking, professional traffic management, miami valet, atlanta valet, event parking logistics, private event parking, commercial valet operations",
-        "home_title": "Valet Parking 4 You | Premier Luxury Valet Service in Florida & Atlanta",
-        "home_description": "South Florida and Atlanta's final word in luxury valet parking and traffic management. Elevating guest arrivals for hotels, restaurants, and private events since 2002."
-    },
-    "hero": {
-        "badge": "22+ Years of Excellence",
-        "title": "Premium Valet Parking",
-        "subtitle": "Professional parking logistics and traffic control for commercial venues and exclusive private events in Florida and Atlanta.",
-        "cta": "Get a Quote",
-        "cta_marketplace": "View Services"
-    },
-    "hero_stats": {
-        "projects": "Venues",
-        "satisfaction": "Satisfaction",
-        "years": "Years Exp."
-    },
-    "local_seo": {
-        "delivery_promise": "Available for Dispatch"
-    },
-    "nav": {
-        "home": "Home",
-        "services": "Services",
-        "insurance": "Insurance",
-        "about": "About Us",
-        "gallery": "Clients",
-        "contact": "Contact",
-        "get_quote": "Get a Quote",
-        "reserve_now": "Book Event",
-        "call_us": "Call Us 24/7",
-        "quote": "Request Quote"
-    },
-    "footer": {
-        "quick_links": "Quick Links",
-        "privacy": "Privacy Policy",
-        "sitemap": "Sitemap",
-        "hours": {
-            "title": "Operation Hours",
-            "monday": "Monday",
-            "tuesday": "Tuesday",
-            "wednesday": "Wednesday",
-            "thursday": "Thursday",
-            "friday": "Friday",
-            "saturday": "Saturday",
-            "sunday": "Sunday",
-            "weekday_hours": "09:00 AM - 09:00 PM",
-            "weekend_hours": "09:00 AM - 09:00 PM"
-        }
-    },
-    "contact": {
-        "title": "Contact Us"
-    },
-    "equipment": {
-        "aerial": "Commercial Setup",
-        "earthworks": "Private Events",
-        "forklifts": "Traffic Control"
-    },
-    "lang_switch": "ES"
+        "home_title": "Valet Parking 4 You | Home - Luxury Valet & Parking Solutions",
+        "home_description": "South Florida and Atlanta's final word in luxury valet parking and traffic management. Elevating guest arrivals for hotels, restaurants, and private events since 2002.",
+        "about_title": "Valet Parking 4 You | About Us - 22 Years of Valet Excellence",
+        "services_title": "Valet Parking 4 You | Our Services - Valet & Traffic Logistics",
+        "insurance_title": "Valet Parking 4 You | Insurance - $4M Premium Liability Coverage",
+        "gallery_title": "Valet Parking 4 You | Gallery - Elite Client Events Portfolio",
+        "faq_title": "Valet Parking 4 You | FAQ - Common Questions & Valet Info",
+        "reserve_title": "Valet Parking 4 You | Book an Event - Request a Quote Now",
+        "contact_title": "Valet Parking 4 You | Contact - Professional Valet Solutions"
+    }
 }

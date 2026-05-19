@@ -41,14 +41,14 @@ export const ContactSection: React.FC = () => {
       {/* Subtle Gradient Backdrops */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-red-accent/10 via-black to-black opacity-60"></div>
 
-      <div className="max-w-6xl mx-auto px-6 sm:px-8 relative z-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 bg-black rounded-3xl border border-white/10 overflow-hidden shadow-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 bg-black rounded-2xl md:rounded-3xl border border-white/10 overflow-hidden shadow-2xl">
 
           {/* Left Column - Contact Info */}
-          <div className="lg:col-span-2 bg-neutral-950 border-b lg:border-b-0 lg:border-r border-white/5 p-10 flex flex-col justify-between">
+          <div className="lg:col-span-2 bg-neutral-950 border-b lg:border-b-0 lg:border-r border-white/5 p-8 sm:p-10 flex flex-col justify-between">
             <div>
-              <h3 className="text-2xl font-serif mb-8 text-white">Direct Access</h3>
+              <h3 className="text-xl sm:text-2xl font-serif mb-6 sm:mb-8 text-white">Direct Access</h3>
               <div className="space-y-6 text-gray-300">
                 <a href={`tel:${siteConfig.business.phone}`} className="flex items-center gap-4 hover:text-gold transition-colors group">
                   <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-gold transition-colors">
@@ -74,17 +74,17 @@ export const ContactSection: React.FC = () => {
           </div>
 
           {/* Right Column - Form */}
-          <div className="lg:col-span-3 p-10 lg:p-14">
+          <div className="lg:col-span-3 p-6 sm:p-10 lg:p-14">
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-8">
 
               {/* Service Type Tabs */}
-              <div className="flex gap-2 p-1 bg-black rounded-lg border border-white/10 mb-8 overflow-x-auto hide-scrollbar">
+              <div className="flex gap-2 p-1 bg-black rounded-lg border border-white/10 mb-8 overflow-x-auto hide-scrollbar snap-x snap-mandatory">
                 {['Commercial', 'Private Event', 'Traffic Control'].map((type) => (
                   <button
                     key={type}
                     type="button"
                     onClick={() => setServiceType(type)}
-                    className={`flex-1 py-3 px-6 rounded-md text-xs font-bold uppercase tracking-widest transition-all whitespace-nowrap ${serviceType === type ? 'bg-red-accent text-white shadow-[0_0_15px_rgba(198,0,0,0.5)]' : 'text-gray-500 hover:text-white hover:bg-white/5'}`}
+                    className={`flex-1 py-3 px-6 rounded-md text-[10px] font-bold uppercase tracking-widest transition-all whitespace-nowrap snap-start ${serviceType === type ? 'bg-red-accent text-white shadow-[0_0_15px_rgba(198,0,0,0.5)]' : 'text-gray-500 hover:text-white hover:bg-white/5'}`}
                   >
                     {type}
                   </button>

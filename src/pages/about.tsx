@@ -3,13 +3,15 @@ import { SeoHead } from '../components/seo/seo-head';
 import { JsonLdSchema } from '../components/seo/json-ld-schemas';
 import { motion } from 'motion/react';
 import { Calendar, Users, MapPin, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import heroBg from '../assets/images/valet/gallery2024_2.jpeg';
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <>
       <SeoHead
-        title="The 22-Year Legacy of Valet Parking 4 You | Elite Hospitality Logistics"
+        title={t('seo.about_title')}
         description="Discover how Valet Parking 4 You has redefined guest arrivals in Florida and Georgia through 22 years of flawless luxury valet parking and logistical expertise."
         url="https://www.valetparking4you.com/about"
       />

@@ -4,13 +4,15 @@ import { JsonLdSchema } from '../components/seo/json-ld-schemas';
 import { ContactSection } from '../components/sections/contact-section';
 import { motion } from 'motion/react';
 import { CalendarDays } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import heroBg from '../assets/images/valet/gallery2024_7.jpeg';
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <>
       <SeoHead
-        title="Book Your Elite Valet Service | Request a Quote - Valet Parking 4 You"
+        title={t('seo.contact_title')}
         description="Reserve professional valet parking for your next event or property. Our logistics team provides tailored proposals for luxury venues in Florida and Georgia within 2 hours."
         url="https://www.valetparking4you.com/contact"
       />

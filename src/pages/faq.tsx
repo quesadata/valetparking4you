@@ -12,7 +12,7 @@ export default function Faq() {
   return (
     <>
       <SeoHead
-        title="Frequently Asked Questions | Valet Parking 4 You"
+        title={t('seo.faq_title')}
         description="Find answers to common questions about our valet parking insurance, logistics, and private event services in Florida and Atlanta."
         url="https://www.valetparking4you.com/faq"
       />

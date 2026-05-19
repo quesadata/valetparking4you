@@ -49,12 +49,12 @@ export const WhyChooseUsSection: React.FC = () => {
                             transition={{ duration: 0.6 }}
                             className="mb-8"
                         >
-                            <span className="text-sm font-bold uppercase tracking-[0.3em] text-yellow-400 mb-4 block">The Legacy</span>
-                            <h2 id="legacy-heading" className="text-4xl md:text-5xl lg:text-6xl font-serif text-white leading-[1.1] mb-6 tracking-tight">
+                            <span className="text-sm font-bold uppercase tracking-[0.3em] text-yellow-400 mb-4 block">Our Commitment</span>
+                            <h2 id="legacy-heading" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white leading-[1.1] mb-6 tracking-tight">
                                 Defining <br />
                                 <span className="italic text-gray-300 border-b-2 border-red-700/40">Excellence</span> Since 2002.
                             </h2>
-                            <p className="text-gray-400 font-sans tracking-wide leading-relaxed text-lg mb-8">
+                            <p className="text-gray-400 font-sans tracking-wide leading-relaxed text-base sm:text-lg mb-8">
                                 For over two decades, Valet Parking 4 You has set the benchmark for luxury hospitality logistics. We don’t just park cars; we engineer flawless first and last impressions.
                             </p>
                         </motion.div>
@@ -83,14 +83,14 @@ export const WhyChooseUsSection: React.FC = () => {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: 0.2 + (idx * 0.1) }}
-                                    className="flex gap-6 items-start group"
+                                    className="flex gap-4 sm:gap-6 items-start group"
                                 >
-                                    <div className="w-20 shrink-0 text-3xl font-serif text-red-accent group-hover:text-gold transition-colors duration-500">
+                                    <div className="w-16 sm:w-20 shrink-0 text-2xl sm:text-3xl font-serif text-red-accent group-hover:text-gold transition-colors duration-500">
                                         {item.metric}
                                     </div>
                                     <div>
-                                        <h4 className="text-white text-lg font-bold tracking-wider uppercase mb-1">{item.label}</h4>
-                                        <p className="text-gray-500 text-sm max-w-sm">{item.desc}</p>
+                                        <h4 className="text-white text-base sm:text-lg font-bold tracking-wider uppercase mb-1">{item.label}</h4>
+                                        <p className="text-gray-500 text-xs sm:text-sm max-w-sm">{item.desc}</p>
                                     </div>
                                 </motion.div>
                             ))}

@@ -65,11 +65,14 @@ const detailedServices = [
   }
 ];
 
+import { useTranslation } from 'react-i18next';
+
 export default function Services() {
+  const { t } = useTranslation();
   return (
     <>
       <SeoHead
-        title="Elite Valet Parking & Traffic Management Services | Valet Parking 4 You"
+        title={t('seo.services_title')}
         description="Comprehensive parking solutions including Commercial Valet, Private Events, and Traffic Logistics tailored for luxury hotels and high-volume venues across Florida and Atlanta."
         url="https://www.valetparking4you.com/services"
       />

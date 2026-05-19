@@ -87,7 +87,27 @@ export const ServicesSection: React.FC = () => {
             </div> {/* end inner padding div */}
           </div>
 
-          {/* Right Side - Dynamic Image Reveal */}
+          {/* Mobile Service Detail (Card Style) */}
+          <div className="block sm:hidden w-full space-y-6">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={hoveredIdx}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="bg-zinc-900/50 rounded-2xl overflow-hidden border border-white/10"
+              >
+                <img src={services[hoveredIdx].img} alt={services[hoveredIdx].title} className="w-full h-48 object-cover" />
+                <div className="p-6">
+                  <p className="text-gray-300 text-sm leading-relaxed">
+                    {services[hoveredIdx].desc}
+                  </p>
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Right Side - Dynamic Image Reveal (Desktop Only) */}
           <div className="flex-1 w-full h-[500px] md:h-[600px] mt-10 md:mt-0 relative hidden sm:block">
             <AnimatePresence mode="wait">
               <motion.div
