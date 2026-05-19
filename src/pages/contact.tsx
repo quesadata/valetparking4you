@@ -4,14 +4,16 @@ import { JsonLdSchema } from '../components/seo/json-ld-schemas';
 import { ContactSection } from '../components/sections/contact-section';
 import { motion } from 'motion/react';
 import { CalendarDays } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import heroBg from '../assets/images/valet/gallery2024_7.jpeg';
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <>
       <SeoHead
-        title="Book Your Event | Valet Parking 4 You"
-        description="Reserve your premium valet parking or traffic management service with Valet Parking 4 You. Serving South Florida and Atlanta for over 22 years."
+        title={t('seo.contact_title')}
+        description={t('seo.contact_description')}
         url="https://www.valetparking4you.com/contact"
       />
       <JsonLdSchema types={['LocalBusiness']} />

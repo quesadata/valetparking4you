@@ -5,12 +5,15 @@ import { motion } from 'motion/react';
 import { Calendar, Users, MapPin, CheckCircle } from 'lucide-react';
 import heroBg from '../assets/images/valet/gallery2024_2.jpeg';
 
+import { useTranslation } from 'react-i18next';
+
 export default function About() {
+  const { t } = useTranslation();
   return (
     <>
       <SeoHead
-        title="About Us | Valet Parking 4 You"
-        description="Learn about the 22-year legacy of Valet Parking 4 You, providing elite hospitality logistics to Florida and Georgia."
+        title={t('seo.about_title')}
+        description={t('seo.about_description')}
         url="https://www.valetparking4you.com/about"
       />
       <JsonLdSchema types={['Organization', 'LocalBusiness']} />

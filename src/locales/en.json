@@ -1,10 +1,20 @@
 {
     "seo": {
-        "default_title": "Valet Parking 4 You | Luxury Valet & Traffic Solutions",
-        "default_description": "South Florida and Atlanta's premier luxury valet parking and traffic management company. Over 22 years of elite hospitality logistics for hotels, restaurants, and private events.",
-        "default_keywords": "valet parking, luxury valet, traffic management, Miami valet, Atlanta valet, event parking logistics, private event parking, hotel valet services",
-        "home_title": "Valet Parking 4 You | Luxury Valet Parking in FL & GA",
-        "home_description": "The destination for elite valet parking and traffic logistics in South Florida and Atlanta. Explore our 22-year legacy of serving luxury venues and exclusive events."
+        "default_title": "Valet Parking 4 You | Luxury Valet & Professional Traffic Management",
+        "default_description": "South Florida and Atlanta's premier luxury valet parking and traffic management company. Experience 22 years of elite hospitality logistics for hotels, elite restaurants, and private events.",
+        "default_keywords": "valet parking, luxury valet, traffic management, Miami valet parking, Atlanta valet services, event logistics, hotel valet parking, professional parking management",
+        "home_title": "Valet Parking 4 You | Elite Valet & Traffic Management in FL & GA",
+        "home_description": "Over 22 years of elite valet parking and traffic logistics in South Florida and Atlanta. We provide five-star hospitality services for luxury venues and exclusive private events.",
+        "about_title": "About Our Legacy | Valet Parking 4 You | Elite Hospitality Since 2004",
+        "about_description": "Discover the 22-year legacy of Valet Parking 4 You. We provide elite hospitality logistics and premier valet services to the most prestigious venues in Florida and Georgia.",
+        "insurance_title": "Insurance & Liability Coverage | $4M Umbrella Protection | Valet Parking 4 You",
+        "insurance_description": "Absolute peace of mind with our $4M Umbrella Liability Insurance. We provide the industry's highest standards of protection for event hosts, properties, and guests.",
+        "contact_title": "Book Your VIP Event Date | Valet Parking 4 You | Request a Proposal",
+        "contact_description": "Secure your event date with Valet Parking 4 You. Contact our logistics team today for a tailored valet or traffic management proposal for your next upscale event.",
+        "gallery_title": "Our Elite Clientele & Gallery | Valet Parking 4 You | Luxury Portfolios",
+        "gallery_description": "Browse our portfolio of luxury hotels, award-winning restaurants, and high-profile private events served by our professional valet and traffic management teams.",
+        "faq_title": "Frequently Asked Questions | Valet Parking 4 You | Client Resources",
+        "faq_description": "Find answers to common questions about our valet services, insurance coverage, staffing, and logistics for events and commercial properties in FL and GA."
     },
     "hero": {
         "badge": "22+ Years of Excellence",
