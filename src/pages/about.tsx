@@ -10,7 +10,7 @@ export default function About() {
     <>
       <SeoHead
         title="The 22-Year Legacy of Valet Parking 4 You | Elite Hospitality Logistics"
-        description="Discover how Valet Parking 4 You has redefined the first and last impressions for luxury venues in Florida and Georgia through 22 years of flawless logistical excellence."
+        description="Discover how Valet Parking 4 You has redefined guest arrivals in Florida and Georgia through 22 years of flawless luxury valet parking and logistical expertise."
         url="https://www.valetparking4you.com/about"
       />
       <JsonLdSchema types={['Organization', 'LocalBusiness']} />
