@@ -8,6 +8,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Reserve from './pages/reserve';
 import Faq from './pages/faq';
+import Gallery from './pages/gallery';
 import './i18n';
 import Insurance from './pages/insurance';
 
@@ -19,7 +20,7 @@ const router = createHashRouter([
             { index: true, element: <Home /> },
             { path: 'services', element: <Services /> },
             { path: 'insurance', element: <Insurance /> },
-            { path: 'gallery', element: <div className="p-20 text-center text-4xl">Client List Coming Soon</div> }, // quick stub for missing gallery
+            { path: 'gallery', element: <Gallery /> },
             { path: 'about', element: <About /> },
             { path: 'contact', element: <Contact /> },
             { path: 'reserve', element: <Reserve /> },

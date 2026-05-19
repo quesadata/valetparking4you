@@ -12,15 +12,15 @@ export default function Faq() {
   return (
     <>
       <SeoHead
-        title={t('seo.faq_title')}
-        description={t('seo.faq_description')}
-        url="https://www.powerliftrentals.com/faq"
+        title="Frequently Asked Questions | Valet Parking 4 You"
+        description="Find answers to common questions about our valet parking insurance, logistics, and private event services in Florida and Atlanta."
+        url="https://www.valetparking4you.com/faq"
       />
       <JsonLdSchema
         types={['LocalBusiness', 'FAQPage']}
         faqData={t('faq.items', { returnObjects: true }) as any}
       />
-      <div className="pt-12 bg-gray-soft">
+      <div className="pt-12 bg-black">
         <FaqSection />
       </div>
       <ContactSection />
