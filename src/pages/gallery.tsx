@@ -14,13 +14,13 @@ export default function Gallery() {
     return (
         <>
             <SeoHead
-                title={t('seo.gallery_title')}
-                description={t('seo.gallery_description')}
-                url="https://www.powerliftrentals.com/gallery"
+                title="Our Luxury Clientele | Valet Parking 4 You"
+                description="View our portfolio of luxury hotels, upscale restaurants, and high-end private events served by Valet Parking 4 You."
+                url="https://www.valetparking4you.com/gallery"
             />
 
             {/* Hero */}
-            <section className="relative h-[55vh] min-h-[430px] flex items-center justify-center overflow-hidden bg-dark industrial-grid noise-overlay">
+            <section className="relative h-[55vh] min-h-[430px] flex items-center justify-center overflow-hidden bg-black">
                 <div className="absolute inset-0 z-0">
                     <img
                         src={heroBg}
