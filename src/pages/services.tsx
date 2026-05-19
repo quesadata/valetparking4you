@@ -69,8 +69,8 @@ export default function Services() {
   return (
     <>
       <SeoHead
-        title="Our Specialized Valet Services | Valet Parking 4 You"
-        description="Explore our elite operations: Commercial Valet, Private Events, Traffic Control, and full-scale Parking Management across Florida and Atlanta."
+        title="Elite Valet Parking & Traffic Management Services | Valet Parking 4 You"
+        description="Comprehensive parking solutions including Commercial Valet, Private Events, and Traffic Logistics tailored for luxury hotels and high-volume venues across Florida and Atlanta."
         url="https://www.valetparking4you.com/services"
       />
       <JsonLdSchema types={['Service']} />

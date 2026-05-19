@@ -6,15 +6,12 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import heroBg from '../assets/images/valet/gallery2024_4.jpeg';
 
-import { useTranslation } from 'react-i18next';
-
 export default function Insurance() {
-    const { t } = useTranslation();
     return (
         <>
             <SeoHead
-                title={t('seo.insurance_title')}
-                description={t('seo.insurance_description')}
+                title="Premium $4M Valet Insurance & Liability Protection | Valet Parking 4 You"
+                description="Secure your property with our industry-leading $4M umbrella liability policy. Valet Parking 4 You provides absolute peace of mind for every host and guest arrival through elite protection standards."
                 url="https://www.valetparking4you.com/insurance"
             />
             <JsonLdSchema types={['LocalBusiness']} />

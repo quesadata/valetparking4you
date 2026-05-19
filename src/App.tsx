@@ -6,7 +6,6 @@ import Home from './pages/home';
 import Services from './pages/services';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Gallery from './pages/gallery';
 import Reserve from './pages/reserve';
 import Faq from './pages/faq';
 import './i18n';
@@ -20,7 +19,7 @@ const router = createHashRouter([
             { index: true, element: <Home /> },
             { path: 'services', element: <Services /> },
             { path: 'insurance', element: <Insurance /> },
-            { path: 'gallery', element: <Gallery /> },
+            { path: 'gallery', element: <div className="p-20 text-center text-4xl">Client List Coming Soon</div> }, // quick stub for missing gallery
             { path: 'about', element: <About /> },
             { path: 'contact', element: <Contact /> },
             { path: 'reserve', element: <Reserve /> },

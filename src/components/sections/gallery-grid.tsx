@@ -113,19 +113,19 @@ const GALLERY_IMAGES: GalleryImage[] = [
     },
 ];
 
-const CATEGORY_KEYS = [ 'all', 'aerial', 'earthworks', 'forklifts', 'used' ] as const;
-type CategoryKey = (typeof CATEGORY_KEYS)[ number ];
+const CATEGORY_KEYS = ['all', 'aerial', 'earthworks', 'forklifts', 'used'] as const;
+type CategoryKey = (typeof CATEGORY_KEYS)[number];
 
 export const GalleryGrid: React.FC = () => {
     const { t } = useTranslation();
-    const [ filter, setFilter ] = useState<CategoryKey>('all');
-    const [ lightboxOpen, setLightboxOpen ] = useState(false);
-    const [ lightboxIndex, setLightboxIndex ] = useState(0);
+    const [filter, setFilter] = useState<CategoryKey>('all');
+    const [lightboxOpen, setLightboxOpen] = useState(false);
+    const [lightboxIndex, setLightboxIndex] = useState(0);
 
     const filteredImages = useMemo(() => {
         if (filter === 'all') return GALLERY_IMAGES;
         return GALLERY_IMAGES.filter((img) => img.category === filter);
-    }, [ filter ]);
+    }, [filter]);
 
     const openLightbox = (index: number) => {
         setLightboxIndex(index);
@@ -133,7 +133,7 @@ export const GalleryGrid: React.FC = () => {
     };
 
     const closeLightbox = () => setLightboxOpen(false);
-    const lightboxImages = useMemo(() => filteredImages.map((img) => img.src), [ filteredImages ]);
+    const lightboxImages = useMemo(() => filteredImages.map((img) => img.src), [filteredImages]);
     const goToPrev = () => setLightboxIndex((prev) => (prev - 1 + lightboxImages.length) % lightboxImages.length);
     const goToNext = () => setLightboxIndex((prev) => (prev + 1) % lightboxImages.length);
 
@@ -157,8 +157,8 @@ export const GalleryGrid: React.FC = () => {
                             aria-selected={filter === key}
                             onClick={() => setFilter(key)}
                             className={`px-6 py-2 rounded-full font-bold transition-all duration-300 ${filter === key
-                                    ? 'bg-primary text-white shadow-lg shadow-primary/30 commercial-glow'
-                                    : 'bg-dark text-white hover:bg-primary'
+                                ? 'bg-primary text-white shadow-lg shadow-primary/30 commercial-glow'
+                                : 'bg-dark text-white hover:bg-primary'
                                 }`}
                         >
                             {t(`gallery.categories.${key}`)}

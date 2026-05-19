@@ -5,15 +5,12 @@ import { motion } from 'motion/react';
 import { Calendar, Users, MapPin, CheckCircle } from 'lucide-react';
 import heroBg from '../assets/images/valet/gallery2024_2.jpeg';
 
-import { useTranslation } from 'react-i18next';
-
 export default function About() {
-  const { t } = useTranslation();
   return (
     <>
       <SeoHead
-        title={t('seo.about_title')}
-        description={t('seo.about_description')}
+        title="The 22-Year Legacy of Valet Parking 4 You | Elite Hospitality Logistics"
+        description="Discover how Valet Parking 4 You has redefined the first and last impressions for luxury venues in Florida and Georgia through 22 years of flawless logistical excellence."
         url="https://www.valetparking4you.com/about"
       />
       <JsonLdSchema types={['Organization', 'LocalBusiness']} />
