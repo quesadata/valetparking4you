@@ -1,0 +1,62 @@
+{
+    "seo": {
+        "default_title": "Valet Parking 4 You",
+        "default_description": "Professional Valet Parking Services",
+        "default_keywords": "valet parking, Miami, event parking, private parking",
+        "home_title": "Valet Parking 4 You | Professional Services in FL & GA",
+        "home_description": "Over 22 years providing premium valet parking solutions for hotels, restaurants, and private events in South Florida and Atlanta."
+    },
+    "hero": {
+        "badge": "22+ Years of Excellence",
+        "title": "Premium Valet Parking",
+        "subtitle": "Professional parking logistics and traffic control for commercial venues and exclusive private events in Florida and Atlanta.",
+        "cta": "Get a Quote",
+        "cta_marketplace": "View Services"
+    },
+    "hero_stats": {
+        "projects": "Venues",
+        "satisfaction": "Satisfaction",
+        "years": "Years Exp."
+    },
+    "local_seo": {
+        "delivery_promise": "Available for Dispatch"
+    },
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "insurance": "Insurance",
+        "about": "About Us",
+        "gallery": "Clients",
+        "contact": "Contact",
+        "get_quote": "Get a Quote",
+        "reserve_now": "Book Event",
+        "call_us": "Call Us 24/7",
+        "quote": "Request Quote"
+    },
+    "footer": {
+        "quick_links": "Quick Links",
+        "privacy": "Privacy Policy",
+        "sitemap": "Sitemap",
+        "hours": {
+            "title": "Operation Hours",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "weekday_hours": "09:00 AM - 09:00 PM",
+            "weekend_hours": "09:00 AM - 09:00 PM"
+        }
+    },
+    "contact": {
+        "title": "Contact Us"
+    },
+    "equipment": {
+        "aerial": "Commercial Setup",
+        "earthworks": "Private Events",
+        "forklifts": "Traffic Control"
+    },
+    "lang_switch": "ES"
+}
