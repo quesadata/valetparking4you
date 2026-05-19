@@ -51,7 +51,7 @@ export const HeroSection: React.FC = () => {
             transition={{ duration: 1.5, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-lg md:text-xl text-gray-300 font-sans tracking-wide leading-relaxed max-w-2xl mb-12"
           >
-            South Florida and Atlanta's premier valet parking and traffic management company — serving luxury hotels, upscale restaurants, condominiums, and exclusive events for over 22 years.
+            South Florida and Atlanta's premier luxury valet and traffic management service, serving elite venues and exclusive events for over 22 years.
           </motion.p>
 
           <motion.div
