@@ -3,7 +3,12 @@ import { motion } from 'motion/react';
 import { Mail, Phone, Calendar, Users, MapPin, Building, Key } from 'lucide-react';
 import { siteConfig } from '../../config/site-config';
 
-export const ContactSection: React.FC = () => {
+interface ContactSectionProps {
+  variant?: string;
+  formVariant?: string;
+}
+
+export const ContactSection: React.FC<ContactSectionProps> = ({ variant, formVariant }) => {
   const formRef = useRef<HTMLFormElement>(null);
   const [serviceType, setServiceType] = useState('Commercial');
 

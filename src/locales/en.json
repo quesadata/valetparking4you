@@ -12,5 +12,27 @@
         "faq_title": "Valet Parking 4 You | FAQ - Common Questions & Valet Info",
         "reserve_title": "Valet Parking 4 You | Book an Event - Request a Quote Now",
         "contact_title": "Valet Parking 4 You | Contact - Professional Valet Solutions"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about our luxury valet parking and logistics services.",
+        "items": [
+            {
+                "question": "What level of insurance coverage do you carry?",
+                "answer": "We carry an industry-leading $4,000,000 commercial umbrella liability policy, along with comprehensive general liability and Garagekeepers legal liability insurance, providing absolute peace of mind."
+            },
+            {
+                "question": "What regions do you service?",
+                "answer": "We provide premier valet parking and traffic management services across South Florida (including Miami-Dade, Broward, and Palm Beach counties) and the Atlanta metropolitan area in Georgia."
+            },
+            {
+                "question": "How far in advance should we book for private events?",
+                "answer": "To ensure optimal staffing, site planning, and scheduling, we recommend booking at least 2 weeks in advance. However, we do accommodate last-minute events based on availability."
+            },
+            {
+                "question": "How do you handle vehicle keys and security?",
+                "answer": "Keys are kept in secure, locked valet key podiums under strict key control protocols. Our attendants perform vehicle condition checks upon arrival, and keys are never left unattended."
+            }
+        ]
     }
 }

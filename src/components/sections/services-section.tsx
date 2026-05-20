@@ -40,7 +40,11 @@ const services = [
   }
 ];
 
-export const ServicesSection: React.FC = () => {
+interface ServicesSectionProps {
+  variant?: string;
+}
+
+export const ServicesSection: React.FC<ServicesSectionProps> = ({ variant }) => {
   const [hoveredIdx, setHoveredIdx] = useState<number>(0);
 
   return (

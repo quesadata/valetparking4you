@@ -12,5 +12,27 @@
         "faq_title": "Valet Parking 4 You | FAQ - Preguntas sobre Valet de Lujo",
         "reserve_title": "Valet Parking 4 You | Reservar - Presupuesto Eventos VIP",
         "contact_title": "Valet Parking 4 You | Contacto - Soluciones de Estacionamiento"
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesita saber sobre nuestros servicios premium de valet parking y logística.",
+        "items": [
+            {
+                "question": "¿Qué nivel de cobertura de seguro tienen?",
+                "answer": "Contamos con una póliza de responsabilidad civil paraguas de $4,000,000 líder en la industria, además de pólizas completas de responsabilidad general y Garagekeepers, brindándole total tranquilidad."
+            },
+            {
+                "question": "¿En qué áreas ofrecen sus servicios?",
+                "answer": "Ofrecemos servicios de valet parking y gestión de tráfico de primer nivel en todo el sur de Florida (Miami-Dade, Broward y Palm Beach) y en el área metropolitana de Atlanta, Georgia."
+            },
+            {
+                "question": "¿Con cuánta anticipación debo reservar para eventos privados?",
+                "answer": "Para garantizar la asignación óptima de personal y la planificación del espacio, recomendamos reservar con al menos 2 semanas de anticipación. No obstante, atendemos eventos de última hora según disponibilidad."
+            },
+            {
+                "question": "¿Cómo manejan la seguridad de las llaves y los vehículos?",
+                "answer": "Las llaves se guardan en podios de seguridad con cerradura y bajo estrictos protocolos de custodia. Nuestro personal inspecciona el estado de los vehículos al recibir y entregar las llaves."
+            }
+        ]
     }
 }
